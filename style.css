@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightsalmon;
+  text-align: center;
+  display: block;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+}
+
+input {
+  border-radius: 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  margin: auto;
+  gap: 0.5rem;
+}
+
+form,
+div {
+  font-family: "Open Sans", sans-serif;
+}

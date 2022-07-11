@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Password Check</h1>
+    </header>
+    <form onsubmit="return false">
+      <input type="password" name="" id="ps1" />
+      <input type="password" name="" id="ps2" />
+      <button>Show Password</button>
+    </form>
+
+    <div class="check">
+      <p>Passwords are equal <span id="check-equal" class="check">❌</span></p>
+      <p>
+        Lower Case Letters
+        <span id="check-lower-case" class="check">❌</span>
+      </p>
+      <p>
+        Upper Case Letters
+        <span id="check-upper-case" class="check">❌</span>
+      </p>
+      <p>
+        Contains Numbers
+        <span id="check-number-case" class="check">❌</span>
+      </p>
+      <p>
+        At least 10 characters long
+        <span id="check-length" class="check">❌</span>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
